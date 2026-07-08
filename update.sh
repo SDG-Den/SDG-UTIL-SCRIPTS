@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WORKDIR="$HOME/.cache/SDG-PKG/sdg-util-scripts"
+WORKDIR="$HOME/.cache/SDG-PKG/sdg-util"
 
 rm -rf "$HOME/.local/SDG-HELP"
 rm -rf "$HOME/.local/SDG-UTILS"

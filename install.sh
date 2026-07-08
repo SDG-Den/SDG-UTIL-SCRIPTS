@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WORKDIR="$HOME/.cache/SDG-PKG/sdg-util-scripts"
+WORKDIR="$HOME/.cache/SDG-PKG/sdg-util"
 
 cp -r "$WORKDIR/local/"* "$HOME/.local/"
 
