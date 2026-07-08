@@ -1,0 +1,7 @@
+Use 'sdg-docs' to browse documentation from all installed modules
+Use 'tldrtui' (SUPER+H) to look up command examples with tldr
+Use 'helptui' (SUPER+SHIFT+H) to browse the legacy help topics
+Use 'document' (SUPER+SHIFT+M) to open external documentation links
+Use 'reference' (SUPER+SHIFT+/) to browse config reference sheets
+Use 'colortui' to preview the current Material You colour palette
+Use 'projects' (SUPER+SHIFT+P) to quickly open projects in your editor

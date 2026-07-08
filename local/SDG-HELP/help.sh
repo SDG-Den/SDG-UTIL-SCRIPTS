@@ -1,6 +1,6 @@
 #!/bin/bash
 
-while $true; do
-    CMD=""
-    SELECTED=$(ls ~/.config/sdgos/help/topics | fzf --layout=reverse --preview-window 'right:70%:wrap-word' --preview="clear && bat --style=plain -S -f -m '*:Markdown' ~/.config/sdgos/help/topics/{}")
+while true; do
+    ls "$HOME/.local/SDG-HELP/topics" 2>/dev/null
+    SELECTED=$(ls "$HOME/.local/SDG-HELP/topics" 2>/dev/null | fzf --layout=reverse --preview-window 'right:70%:wrap-word' --preview="clear && bat --style=plain -S -f -m '*:Markdown' $HOME/.local/SDG-HELP/topics/{}" --bind 'enter:execute(bat --style=plain -S -f -m "*:Markdown" $HOME/.local/SDG-HELP/topics/{})')
 done
