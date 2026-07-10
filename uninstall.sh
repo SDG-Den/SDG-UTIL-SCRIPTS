@@ -9,5 +9,5 @@ rm -rf "$HOME/.local/docs/SDG-DOC-CUSTOMIZATION"
 rm -rf "$HOME/.local/docs/SDG-DOC-DEVELOPMENT"
 rm -rf "$HOME/.local/tips/SDG-UTIL-SCRIPTS"
 
-unlink /usr/bin/sdg-tldr
-unlink /usr/bin/git-projects
+sudo unlink /usr/bin/sdg-tldr
+sudo unlink /usr/bin/git-projects
