@@ -1,7 +1,7 @@
-Use 'sdg-docs' to browse documentation from all installed modules
-Use 'tldrtui' (SUPER+H) to look up command examples with tldr
-Use 'helptui' (SUPER+SHIFT+H) to browse the legacy help topics
-Use 'document' (SUPER+SHIFT+M) to open external documentation links
-Use 'reference' (SUPER+SHIFT+/) to browse config reference sheets
-Use 'colortui' to preview the current Material You colour palette
-Use 'projects' (SUPER+SHIFT+P) to quickly open projects in your editor
+[SDG-UTIL-SCRIPTS]: Use 'sdg-docs' to browse documentation from all installed modules
+[SDG-UTIL-SCRIPTS]: Use 'tldrtui' (SUPER+H) to look up command examples with tldr
+[SDG-UTIL-SCRIPTS]: Use 'helptui' (SUPER+SHIFT+H) to browse the legacy help topics
+[SDG-UTIL-SCRIPTS]: Use 'document' (SUPER+SHIFT+M) to open external documentation links
+[SDG-UTIL-SCRIPTS]: Use 'reference' (SUPER+SHIFT+/) to browse config reference sheets
+[SDG-UTIL-SCRIPTS]: Use 'colortui' to preview the current Material You colour palette
+[SDG-UTIL-SCRIPTS]: Use 'projects' (SUPER+SHIFT+P) to quickly open projects in your editor
