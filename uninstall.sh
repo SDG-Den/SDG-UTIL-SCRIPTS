@@ -11,3 +11,4 @@ rm -rf "$HOME/.local/tips/SDG-UTIL-SCRIPTS"
 
 sudo unlink /usr/bin/sdg-tldr
 sudo unlink /usr/bin/git-projects
+sudo unlink /usr/bin/rgbkeys
