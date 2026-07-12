@@ -1,7 +1,7 @@
 Package Name: sdg-util
 Descriptive Name: SDG Utility Scripts
-Source: https://git.sdgcloud.nl/SDGDen/SDG-UTIL-SCRIPTS
-Maintainer: SDGDen <sdgden@sdgcloud.nl>
+Source: https://github.com/SDG-Den/SDG-UTIL-SCRIPTS
+Maintainer: SDGDen
 Version:0.2
 
 Dependencies: 
