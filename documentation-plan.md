@@ -4,8 +4,8 @@
 The previous plan was stale — it referenced `sdgvolume`, `sdgbrightness`, `sdgquick`, `sdgrecord` and `docs/SDG-UTIL-SCRIPTS/more-info.md`, none of which exist. The actual content is the help system and OS-wide documentation.
 
 This repo has TWO documentation responsibilities:
-1. **Its own tools** (6 CLI commands) — needs docs created in `docs/SDG-UTIL-SCRIPTS/`
-2. **OS-wide end-user documentation** (SDG-DOC-* suites) — 17 files exist (complete), 8 files are WIP
+1. **Its own tools** (6 CLI commands) — docs created in `docs/SDG-UTIL-SCRIPTS/` (7 files, all complete)
+2. **OS-wide end-user documentation** (SDG-DOC-* suites) — 25 files across 5 suites, all complete
 
 ## Source-Verified Inventory
 
@@ -25,8 +25,8 @@ This repo has TWO documentation responsibilities:
 | SDG-DOC-GETTING-STARTED | 5 (README + 000-welcome through 004-functions) | All complete |
 | SDG-DOC-DESKTOP-USAGE | 5 (README + 101-settings through 105-layouts) | All complete |
 | SDG-DOC-TERMINAL | 7 (README + 201-navigation through 207-additional) | All complete |
-| SDG-DOC-CUSTOMIZATION | 6 (README + 301-dms through 405-monitors) | 1 complete, 5 marked WIP |
-| SDG-DOC-DEVELOPMENT | 3 (README + 501-scripting-basics + 502-flow-control) | All 3 marked WIP |
+| SDG-DOC-CUSTOMIZATION | 6 (README + 301-dms through 405-monitors) | All complete |
+| SDG-DOC-DEVELOPMENT | 3 (README + 501-scripting-basics + 502-flow-control) | All complete |
 
 ### Part C: Reference Data Files
 | File | Entries | Content |
@@ -54,18 +54,13 @@ This repo has TWO documentation responsibilities:
 ### Part B: OS-Wide Doc Suites — `docs/SDG-DOC-*/`
 These are core SDG-OS documentation and should CONTINUE being split (distributed across packages).
 
-**WIP files that need completing:**
-| Doc Suite | WIP Files |
-|-----------|-----------|
-| SDG-DOC-CUSTOMIZATION | 401-customizing-mango-layouts.md, 402-customizing-mango-binds.md, 403-customizing-mango-decoration.md, 404-customizing-mango-autostart.md, 405-customizing-mango-monitors.md |
-| SDG-DOC-DEVELOPMENT | 501-scripting-basics.md, 502-flow-control.md |
+All 8 previously-WIP files are now complete with substantive content.
 
 ### Existing Content
 | File | Notes |
 |------|-------|
-| `docs/SDG-DOC-*/` (17 files) | Complete — Getting Started, Desktop Usage, Terminal |
-| `docs/SDG-DOC-*/` (8 files) | WIP — Customization (5), Development (3) |
-| No `docs/SDG-UTIL-SCRIPTS/` dir exists | All 7 repo tool topics need creation |
+| `docs/SDG-DOC-*/` (25 files) | All 5 doc suites complete — Getting Started, Desktop Usage, Terminal, Customization, Development |
+| `docs/SDG-UTIL-SCRIPTS/` (7 files) | All 7 repo tool topics created and complete |
 
 ## Tips System (`tips/`)
 **Deploy location**: `~/.local/tips/SDG-UTIL-SCRIPTS/`
@@ -73,18 +68,10 @@ These are core SDG-OS documentation and should CONTINUE being split (distributed
 ### Existing Tips
 | # | Tip | Notes |
 |---|-----|-------|
-| 1-7 | In `tips/SDG-UTIL-SCRIPTS/tips.list` | Already exists! Covers sdg-docs, tldrtui, helptui, document, reference, colortui, projects |
-
-### Additional Planned Tips
-| # | Tip | Priority |
-|---|-----|----------|
-| 8 | tldrtui (SUPER+H) for quick command examples | High |
-| 9 | helptui (SUPER+SHIFT+H) for help topics | High |
-| 10 | colortui to preview current Material You palette | Low |
+| 1-7 | In `tips/SDG-UTIL-SCRIPTS/tips.list` | All 7 tips exist. Covers sdg-docs, tldrtui, helptui, document, reference, colortui, projects — no additions needed (the 3 planned tips were already covered by existing entries). |
 
 ## Implementation Notes
-- CRITICAL: Previous plan was stale — the 4 scripts (sdgvolume, sdgbrightness, sdgquick, sdgrecord) do NOT exist. Removing those from the plan.
-- The `docs/SDG-DOC-*/` suites are SDG-OS-wide docs, NOT specific to this repo. They continue being split across packages. Only need to complete the 8 WIP files.
-- Repo-specific docs go in `docs/SDG-UTIL-SCRIPTS/` with `nn-topic-name.md` format covering the 6 actual tools
-- Tips.list already exists — just needs a few additions
-- Source for tool docs: the 6 scripts in `local/SDG-HELP/` and `local/SDG-UTILS/`
+- CRITICAL: Previous plan was stale — the 4 scripts (sdgvolume, sdgbrightness, sdgquick, sdgrecord) do NOT exist. Removed from the plan.
+- The `docs/SDG-DOC-*/` suites are SDG-OS-wide docs, NOT specific to this repo. They continue being split across packages. All 25 files across 5 suites are complete.
+- Repo-specific docs are in `docs/SDG-UTIL-SCRIPTS/` with `nn-topic-name.md` format — all 7 files created and complete.
+- Tips.list has all 7 tips — no additions needed.

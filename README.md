@@ -1,18 +1,12 @@
 # SDG-UTIL-SCRIPTS
 
-Utility scripts for SDG-OS — audio, brightness, quick settings, screen recording, help system, and documentation browser.
+Utility scripts for SDG-OS — help system, documentation, and developer tools.
 
 ## Description
 
-SDG-UTIL-SCRIPTS provides a suite of daily-driver tools: hardware controls (volume, brightness, quick settings), screen recording, and an extensive help/documentation system with command TLDRs, topic guides, config reference sheets, Material You color preview, and a git project launcher.
+SDG-UTIL-SCRIPTS provides an extensive help/documentation system with command TLDRs, topic guides, config reference sheets, Material You color preview, and a git project launcher.
 
 ## Features
-
-### Hardware Controls
-- **`sdgvolume`** — volume up/down, mute, mic toggle, mic mute (uses wpctl)
-- **`sdgbrightness`** — brightness up/down (uses brightnessctl)
-- **`sdgquick`** — quick settings: Bluetooth, networking, display settings, cloud, USB eject
-- **`sdgrecord`** — screen recording with area selection and auto-save naming
 
 ### Help System
 - **`sdg-tldr` / `tldrtui`** — fzf browser of ~120 common commands with tldr/man output
@@ -25,10 +19,6 @@ SDG-UTIL-SCRIPTS provides a suite of daily-driver tools: hardware controls (volu
 ## CLI Usage
 
 ```bash
-sdgvolume up|down|mute|micmute
-sdgbrightness up|down
-sdgquick                    # Bluetooth, networking, display, USB eject
-sdgrecord                   # Screen recording with area select
 sdg-tldr                    # Command help browser
 helptui                     # Topic-based help
 documentation               # Documentation link browser
@@ -50,9 +40,6 @@ sdgpkg install sdg-util
 - `tldr` (tealdeer) — command summaries
 - `eza` — file listing
 - `micro` — text editor
-- `wpctl` (PipeWire) — volume control
-- `brightnessctl` — brightness control
-- `wf-recorder` — screen recording
 
 ## Related Packages
 
