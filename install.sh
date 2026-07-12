@@ -1,5 +1,7 @@
 #!/bin/bash
 
+unipkg install any fzf
+
 WORKDIR="$HOME/.cache/SDG-PKG/sdg-util"
 
 cp -r "$WORKDIR/local/"* "$HOME/.local/"
