@@ -9,10 +9,11 @@ SDG-UTIL-SCRIPTS provides an extensive help/documentation system with command TL
 ## Features
 
 ### Help System
-- **`sdg-tldr` / `tldrtui`** — fzf browser of ~120 common commands with tldr/man output
-- **`helptui`** — topic-based help browser (24 topics: Getting Started, Desktop, Terminal, Customization, Development)
-- **`documentation`** — 27 curated documentation links (MangoWM, DMS, Ghostty, Arch Wiki, etc.)
-- **`reference`** — 217-entry mangoWM config option reference
+- **`sdg-tldr`** — fzf browser of common commands with tldr/man output
+- **`tldrtui`** — old alias for sdg-tldr (pending removal)
+- **`helptui`** — topic-based help browser (old feature, pending removal)
+- **`documentation`** — curated documentation links (MangoWM, DMS, Ghostty, Arch Wiki, etc.)
+- **`reference`** — mangoWM config option reference
 - **`colortui`** — Material You color palette preview from Matugen
 - **`git-projects`** — scan `~/projects/` for git repos, browse and open in VS Code
 

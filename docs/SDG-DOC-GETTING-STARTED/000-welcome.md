@@ -1,23 +1,23 @@
-> Welcome
+# Welcome
 
-Welcome to the SDG-OS Help Documentation. 
+Welcome to the SDG-OS Help Documentation.
 
-this interface contains documentation on how to use your OS as well as the basics of customizing and configuring your OS and basic scripting and automation.
+This interface contains documentation on how to use your OS as well as the basics of customizing and configuring your OS and basic scripting and automation.
 
+## Quick Access
 
-#the following tools give you some quick access:
+- `SUPER+H` — opens a quick reference for common commands (`sdg-tldr`)
+- `SUPER+K` — shows all available keybinds
+- `SUPER+SHIFT+M` or `documentation` in the terminal — opens a runner for various documentation pieces and quick reference lists
 
-*super+H* or `tldrtui` in the terminal - opens a quick reference for common commands
-*super+shift+H* or `helptui` in the terminal - opens this menu
-*super+k* - shows you all the available keybinds
-*super+shift+m* or `documentation` in the terminal - opens a runner for various documentation pieces as well as quick reference lists. 
+## Chapter Layout
 
-this interface is divided into chapters (first digit), the following chapters exist:
+This interface is divided into chapters (first digit):
 
-- 000 - welcome and overview of SDG-OS specific functionality
-- 100 - using SDG-OS via the UI
-- 200 - terminal basics
-- 300 - customizing DMS
-- 400 - customizing Mango
-- 500 - custom scripting
-- 600 - detailed help for all of the DMS settings
+- 000 — welcome and overview of SDG-OS specific functionality
+- 100 — using SDG-OS via the UI
+- 200 — terminal basics
+- 300 — customizing DMS
+- 400 — customizing Mango
+- 500 — custom scripting
+- 600 — detailed help for all of the DMS settings
