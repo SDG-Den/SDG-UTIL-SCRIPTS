@@ -4,10 +4,10 @@ Opens an `fzf` picker over one of four reference lists, passed as an argument:
 
 | argument | file | entries | content |
 |----------|------|---------|---------|
-| references | `references.list` | ~217 | mangoWM config options |
-| mangodispatchers | `mangodispatchers.list` | ~71 | mangoWM keybind dispatchers |
-| mangoipc | `mangoipc.list` | ~19 | mmsg IPC commands |
-| DMSipc | `DMSipc.list` | ~244 | DMS IPC commands |
+| references | `references.list` | mangoWM config options |
+| mangodispatchers | `mangodispatchers.list` | mangoWM keybind dispatchers |
+| mangoipc | `mangoipc.list` | mmsg IPC commands |
+| DMSipc | `DMSipc.list` | DMS IPC commands |
 
 **keybind:** `SUPER+SHIFT+/`
 **run:** `reference <listname>`
