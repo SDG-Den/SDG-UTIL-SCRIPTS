@@ -11,6 +11,10 @@
 - [x] `DMSipc.list` → `dms-ipc-commands.list` (all refs updated)
 - [x] `tips.list` — removed incorrect `sdg-docs` and outdated `documentation` tips
 - [x] `info.md` — added `sdg-mango-helpers` dependency, removed firefox dep
+- [x] Cross-referenced all binds in SDG-MANGO-CORE vs SDG-UTIL-SCRIPTS docs
+- [x] `topics/` directory moved to OLD (superseded by SDG-DOCS)
+- [x] `local/SDG-HELP/README.md` — topics references removed
+- [x] SDG-MANGO-CORE `102-keybinds-reference.md` — fixed "sdgdocs from sdg-util" → "from sdg-docs"
 
 ## Testing (manual)
 - [ ] `tldrtui` / `cmd-help.sh` browses commands correctly, Esc quits
@@ -18,5 +22,5 @@
 - [ ] `colortui` renders colors
 - [ ] `git-projects` launches repos (preview no longer errors on `--icons`)
 - [ ] `rgbkeys` shows RGB keyboard bar
-- [ ] `cmds.list` and topic files are complete
+- [ ] `cmds.list` is complete
 - [ ] `documentation` command no longer exists (404 expected)

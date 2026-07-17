@@ -1,5 +1,5 @@
 [SDG-UTIL-SCRIPTS]: Use 'tldrtui' (SUPER+H) to look up command examples with tldr
-[SDG-UTIL-SCRIPTS]: Use 'reference' (SUPER+SHIFT+/) to browse config reference sheets
-[SDG-UTIL-SCRIPTS]: Use 'colortui' to preview the current Material You colour palette
-[SDG-UTIL-SCRIPTS]: Use 'git-projects' (SUPER+SHIFT+P) to quickly open projects in your editor
+[SDG-UTIL-SCRIPTS]: Use 'reference' to browse config reference sheets
+[SDG-UTIL-SCRIPTS]: Use 'colortui' (theme mode > SUPER+ALT+T) to preview the current Material You colour palette
+[SDG-UTIL-SCRIPTS]: Use 'git-projects' (SUPER+SHIFT+TAB) to quickly open projects in your editor
 [SDG-UTIL-SCRIPTS]: Use 'rgbkeys' to visualize percentage on RGB keyboard (e.g., `echo 75 | rgbkeys`)
