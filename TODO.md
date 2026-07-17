@@ -1,21 +1,22 @@
 # TODO — SDG-UTIL-SCRIPTS
 
-## Documentation
-- [x] Remove all docs for `helptui` (deprecated) — script removed but 6+ references remain in README, info.md, topic files, documentation.list
-- [x] Update references to use `tldrtui` (final name)
+## Done (this session)
+- [x] `tldrtui` (cmd-help.sh) — quit on Esc now works
+- [x] `reference.sh` — quit on Esc + error/help if no list arg given
+- [x] `git-projects` (project-select.sh) — `--icons` → `--icons=always`
+- [x] `documentation.sh` + `documentation.list` + `202-documentation.md` → moved to OLD
+- [x] `install.sh` — creates `~/.config/projectdir.state` (default: `projects`)
+- [x] `install.sh` / `update.sh` / `uninstall.sh` — `documentation` symlink removed
+- [x] All `documentation` command references scrubbed from README, info.md, docs, topics, tips, TEST-CHECKLIST.md, local/SDG-HELP/README.md
+- [x] `DMSipc.list` → `dms-ipc-commands.list` (all refs updated)
+- [x] `tips.list` — removed incorrect `sdg-docs` and outdated `documentation` tips
+- [x] `info.md` — added `sdg-mango-helpers` dependency, removed firefox dep
 
-## Changes
-- [x] Remove `helptui` entirely — script file is gone, verify no dangling refs
-- [x] Convert `tldrtui` to /usr/bin/ symlink
-- [x] Add `rgbkeys` to documentation (README, docs, info.md)
-
-## Testing
-- [ ] `tldrtui` / `cmd-help.sh` browses commands correctly
-- [ ] `documentation` tool works
-- [ ] `reference` tool works
+## Testing (manual)
+- [ ] `tldrtui` / `cmd-help.sh` browses commands correctly, Esc quits
+- [ ] `reference` (no args) shows help; `reference <list>` browses, Esc quits
 - [ ] `colortui` renders colors
-- [ ] `git-projects` launches repos
+- [ ] `git-projects` launches repos (preview no longer errors on `--icons`)
 - [ ] `rgbkeys` shows RGB keyboard bar
 - [ ] `cmds.list` and topic files are complete
-
-(End of file - total 21 lines)
+- [ ] `documentation` command no longer exists (404 expected)

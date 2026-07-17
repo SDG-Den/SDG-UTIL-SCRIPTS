@@ -8,7 +8,6 @@ quick reference lists.
 | Command | Keybind | Purpose |
 |---------|---------|---------|
 | `tldrtui` | SUPER+H | Command reference with TLDR previews |
-| `documentation` | SUPER+SHIFT+M | Documentation links + reference sheets |
 
 ## Structure
 
@@ -20,7 +19,7 @@ quick reference lists.
 | `references.list` | MangoWM config options reference |
 | `mangodispatchers.list` | MangoWM dispatcher reference |
 | `mangoipc.list` | MangoWM IPC command reference |
-| `DMSipc.list` | DMS IPC command reference |
+| `dms-ipc-commands.list` | DMS IPC command reference |
 | `cmds.list` | Command list for cmd-help.sh |
 
 ## Topics

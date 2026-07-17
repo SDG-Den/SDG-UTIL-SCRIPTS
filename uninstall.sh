@@ -11,7 +11,6 @@ rm -rf "$HOME/.local/tips/SDG-UTIL-SCRIPTS"
 
 sudo unlink /usr/bin/tldrtui
 sudo unlink /usr/bin/git-projects
-sudo unlink /usr/bin/documentation
 sudo unlink /usr/bin/rgbkeys
 sudo unlink /usr/bin/colortui
 sudo unlink /usr/bin/reference

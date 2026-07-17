@@ -76,13 +76,6 @@ if you've accidentally messed up your layout, pressing *SUPER+R* will force it b
 
 
 
-## documentation menu
-
-you can open this menu using the alias `documentation` in the terminal or the bind *SUPER+shift+M*
-
-this menu will allow you to quickly open both various documentation sites in firefox as well as custom-built searchable quick reference menu's 
-
-
 ## wallpaper switcher
 
 you can open this with *SUPER+W*, it'll show you the directories in ~/.config/sdgos/wallpapers

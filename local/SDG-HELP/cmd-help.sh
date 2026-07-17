@@ -2,5 +2,6 @@
 
 while true; do
     CMD=$(cat "$HOME/.local/SDG-HELP/cmds.list" | fzf --layout=reverse --preview-window=right:70% --preview='tldr --color always $(echo {} | sed "s/ls (eza)/eza/" | sed "s/cd (zoxide)/z/")')
+    [ -z "$CMD" ] && break
     man $(echo "$CMD" | sed 's/ls (eza)/eza/' | sed 's/cd (zoxide)/z/' )
 done

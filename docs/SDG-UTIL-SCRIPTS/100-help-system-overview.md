@@ -7,7 +7,6 @@ This package provides help tools and utility tools:
 - `reference` (`references.sh`) — browses reference sheets for mangoWM config options, dispatchers, and IPC commands
 
 **utility tools:**
-- `documentation` (`documentation.sh`) — opens a picker of external and local documentation links
 - `colortui` (`colors.sh`) — previews the current Material You color palette from Matugen
 - `git-projects` (`project-select.sh`) — scans `~/projects/` for git repos and opens them in VS Code
 

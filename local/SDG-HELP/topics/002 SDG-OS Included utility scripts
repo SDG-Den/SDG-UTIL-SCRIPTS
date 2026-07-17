@@ -15,7 +15,7 @@ shows this menu! it effectively just shows you all the files in the topics folde
 this is bound to the bind *super+shift+H* and the terminal alias `tldrtui`
 
 #help/references.sh#
-this script takes a list file (like references.list, mangoipc.list or DMSipc.list) and presents it using fzf. 
+this script takes a list file (like references.list, mangoipc.list or dms-ipc-commands.list) and presents it using fzf. 
 this is not used directly but used through another script to present searchable reference lists.
 
 #screenshots/mode-toggle.sh#
@@ -54,11 +54,6 @@ you can launch this script with the terminal alias `aurgui`
 provides a graphical interface for browsing the pacman repository, including multi-select functionality and a details pane
 
 you can launch this script with the terminal alias `pacgui`
-
-#tuis/documentation.sh#
-provides quick access to various pieces of documentation, including various interactive reference lists. 
-
-you can launch this script with the terminal alias `documentation` or the bind *super+shift+M*
 
 #tuis/layout-switch.sh#
 allows you to switch through layouts using a selectable menu, pulls layouts from layouts.list, so new layouts can be added easily. 

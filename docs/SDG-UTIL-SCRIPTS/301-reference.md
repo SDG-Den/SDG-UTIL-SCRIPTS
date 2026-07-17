@@ -7,7 +7,7 @@ Opens an `fzf` picker over one of four reference lists, passed as an argument:
 | references | `references.list` | mangoWM config options |
 | mangodispatchers | `mangodispatchers.list` | mangoWM keybind dispatchers |
 | mangoipc | `mangoipc.list` | mmsg IPC commands |
-| DMSipc | `DMSipc.list` | DMS IPC commands |
+| dms-ipc-commands | `dms-ipc-commands.list` | DMS IPC commands |
 
 **keybind:** `SUPER+SHIFT+/`
 **run:** `reference <listname>`

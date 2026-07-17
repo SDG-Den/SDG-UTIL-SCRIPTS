@@ -19,7 +19,6 @@ SDG-UTIL-SCRIPTS provides an extensive help/documentation system with command TL
 
 ```bash
 tldrtui                    # Command help browser
-documentation              # Documentation link browser
 reference                  # Config option reference
 colortui                   # Color palette preview
 git-projects               # Git project launcher
@@ -35,7 +34,6 @@ sdgpkg install sdg-util
 ## Dependencies
 
 - `fzf`, `bat` — interactive menus and previews
-- `firefox` — documentation links
 - `tldr` (tealdeer) — command summaries
 - `eza` — file listing
 - `micro` — text editor
