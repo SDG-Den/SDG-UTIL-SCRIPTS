@@ -2,7 +2,7 @@ Package Name: sdg-util
 Descriptive Name: SDG Utility Scripts
 Source: https://github.com/SDG-Den/SDG-UTIL-SCRIPTS
 Maintainer: SDGDen
-Version:0.2.2
+Version:0.3
 
 Dependencies: 
 fzf, bat, tldr (tealdeer), eza, micro, sdg-mango-helpers
