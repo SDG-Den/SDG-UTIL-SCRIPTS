@@ -3,8 +3,6 @@
 
 
 
-
-
 ## TLDR TUI 
 
 you can call this using either the *SUPER+H* bind or the alias `tldrtui` in the terminal
@@ -16,18 +14,6 @@ pressing enter or double-clicking an entry will open the man page for that entry
 pressing q on the manpage will bring you back to the main menu.
 
 to exit, press *SUPER+Q* to quit the terminal
-
-
-
-## help TUI
-
-you can call this using the *SUPER+SHIFT+H* bind or the alias `helptui` in the terminal
-
-you can use the arrow keys or the mouse to navigate and type to search.
-
-enter refreshes the menu
-
-to exit, press *SUPER+Q*
 
 
 

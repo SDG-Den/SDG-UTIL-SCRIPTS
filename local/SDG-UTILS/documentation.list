@@ -20,7 +20,6 @@ Ghostty - Reference docs | firefox --new-tab https://ghostty.org/docs/config/ref
 Ghostty - Keybind Reference | firefox --new-tab https://ghostty.org/docs/config/keybind/reference
 CachyOS - Wiki | firefox --new-tab https://wiki.cachyos.org/cachyos_basic/navigation-guide/
 Arch - Wiki | firefox --new-tab https://wiki.archlinux.org/title/Main_page
-SDG-OS Help System (helptui) | ~/.local/SDG-HELP/help.sh
 MangoWM - Config File Reference Sheet | ~/.local/SDG-HELP/references.sh references
 MangoWM - Dispatcher Reference Sheet | ~/.local/SDG-HELP/references.sh mangodispatchers
 MangoWM - IPC Reference Sheet | ~/.local/SDG-HELP/references.sh mangoipc

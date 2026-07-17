@@ -8,8 +8,6 @@ this interface contains documentation on how to use your OS as well as the basic
 #the following tools give you some quick access:
 
 *super+H* or `tldrtui` in the terminal - opens a quick reference for common commands
-*super+shift+H* or `helptui` in the terminal - opens this menu
-*super+k* - shows you all the available keybinds
 *super+shift+m* or `documentation` in the terminal - opens a runner for various documentation pieces as well as quick reference lists. 
 
 this interface is divided into chapters (first digit), the following chapters exist:

@@ -3,7 +3,7 @@
 This package provides help tools and utility tools:
 
 **help tools:**
-- `sdg-tldr` (`cmd-help.sh`) — looks up common commands with TLDR/man output
+- `tldrtui` (`cmd-help.sh`) — looks up common commands with TLDR/man output
 - `reference` (`references.sh`) — browses reference sheets for mangoWM config options, dispatchers, and IPC commands
 
 **utility tools:**

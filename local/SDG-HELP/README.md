@@ -7,7 +7,6 @@ quick reference lists.
 
 | Command | Keybind | Purpose |
 |---------|---------|---------|
-| `helptui` | SUPER+SHIFT+H | Topic-based help browser |
 | `tldrtui` | SUPER+H | Command reference with TLDR previews |
 | `documentation` | SUPER+SHIFT+M | Documentation links + reference sheets |
 
@@ -15,7 +14,6 @@ quick reference lists.
 
 | Path | Purpose |
 |------|---------|
-| `help.sh` | Topic-based help browser (reads `topics/`) |
 | `cmd-help.sh` | Command reference with TLDR + man pages |
 | `references.sh` | FZF-based quick reference sheets |
 | `topics/` | Help topic files (numbered by chapter) |

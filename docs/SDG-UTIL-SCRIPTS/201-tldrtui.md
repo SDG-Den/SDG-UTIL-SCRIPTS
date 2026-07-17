@@ -1,9 +1,9 @@
-# sdg-tldr
+# tldrtui
 
 Opens an `fzf` picker of common Linux commands grouped by category (files, system, network, etc.). Selecting a command shows its `tldr` output in the preview pane, and pressing enter opens the man page.
 
 **keybind:** `SUPER+H`
-**run:** `sdg-tldr`
+**run:** `tldrtui`
 
 **source:** `cmd-help.sh` at `~/.local/SDG-HELP/cmd-help.sh`
 **data:** `cmds.list` at `~/.local/SDG-HELP/cmds.list`
